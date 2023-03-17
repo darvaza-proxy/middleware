@@ -18,12 +18,7 @@ func (h *HTTPSRedirectHandler) ServeHTTP(rw http.ResponseWriter, req *http.Reque
 		url := *req.URL
 		url.Scheme = "https"
 
-		host, _, err := net.SplitHostPort(url.Host)
-		if err != nil {
-			internal.BadRequestHandler(rw, req, err)
-			return
-		}
-
+		host := url.Hostname()
 		if h.Port != 0 && h.Port != 443 {
 			port := fmt.Sprintf("%v", h.Port)
 			url.Host = net.JoinHostPort(host, port)
