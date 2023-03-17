@@ -1,6 +1,10 @@
 # func(http.Handler) http.Handler
 
 
+## Error Handling Middleware
+
+* `WithErrorHandlerMiddleware()`
+
 ## Special Handlers
 
 * HTTPSRedirectHandler a handler that will redirect to https if

@@ -2,7 +2,10 @@ module github.com/darvaza-proxy/middleware
 
 go 1.19
 
-require github.com/mgechev/revive v1.3.1
+require (
+	github.com/darvaza-proxy/core v0.6.1
+	github.com/mgechev/revive v1.3.1
+)
 
 require (
 	github.com/BurntSushi/toml v1.2.1 // indirect
