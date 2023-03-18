@@ -5,6 +5,7 @@ import (
 	"net"
 	"net/http"
 
+	"github.com/darvaza-proxy/core"
 	"github.com/darvaza-proxy/middleware/internal"
 )
 
@@ -18,7 +19,7 @@ func (h *HTTPSRedirectHandler) ServeHTTP(rw http.ResponseWriter, req *http.Reque
 		url := *req.URL
 		url.Scheme = "https"
 
-		host := url.Hostname()
+		host, _, _ := core.SplitHostPort(req.Host)
 		if h.Port != 0 && h.Port != 443 {
 			port := fmt.Sprintf("%v", h.Port)
 			url.Host = net.JoinHostPort(host, port)
