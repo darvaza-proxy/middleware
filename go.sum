@@ -1,7 +1,7 @@
 darvaza.org/core v0.9.0 h1:3Vkmhr5n5/cQ89BpjWwQArqt3QdCRcEUc6F3Tnb7Dus=
 darvaza.org/core v0.9.0/go.mod h1:QyzYp1eWsgHJIHyaRZcLSc2LLjCvLFugHXfZLWD9JNU=
-darvaza.org/darvaza/shared/web v0.3.1 h1:JqOURYUZNFNiRJru8J/HGU1v+GEk248rpiV+Bh9uzQU=
-darvaza.org/darvaza/shared/web v0.3.1/go.mod h1:v0rV8Xo+fCwVWt2OxMzYj5vpPjgmXZbvk9COs6FO/gQ=
+darvaza.org/darvaza/shared/web v0.3.2 h1:Y7Je+4RviwbmC7MtPDGf5kJ/jSxrZOnU6GnjHlgx2a0=
+darvaza.org/darvaza/shared/web v0.3.2/go.mod h1:v0rV8Xo+fCwVWt2OxMzYj5vpPjgmXZbvk9COs6FO/gQ=
 github.com/BurntSushi/toml v1.2.1 h1:9F2/+DoOYIOksmaJFPw1tGFy1eDnIJXg+UHjuD8lTak=
 github.com/BurntSushi/toml v1.2.1/go.mod h1:CxXYINrC8qIiEnFrOxCa7Jy5BFHlXnUU2pbicEuybxQ=
 github.com/chavacava/garif v0.0.0-20230227094218-b8c73b2037b8 h1:W9o46d2kbNL06lq7UNDPV0zYLzkrde/bjIqO02eoll0=
@@ -16,8 +16,8 @@ github.com/fatih/structtag v1.2.0/go.mod h1:mBJUNpUnHmRKrKlQQlmCrh5PuhftFbNv8Ys4
 github.com/mattn/go-colorable v0.1.13 h1:fFA4WZxdEF4tXPZVKMLwD8oUnCTTo08duU7wxecdEvA=
 github.com/mattn/go-colorable v0.1.13/go.mod h1:7S9/ev0klgBDR4GtXTXX8a3vIGJpMovkB8vQcUbaXHg=
 github.com/mattn/go-isatty v0.0.16/go.mod h1:kYGgaQfpe5nmfYZH+SKPsOc2e4SrIfOl2e/yFXSvRLM=
-github.com/mattn/go-isatty v0.0.17 h1:BTarxUcIeDqL27Mc+vyvdWYSL28zpIhv3RoTdsLMPng=
-github.com/mattn/go-isatty v0.0.17/go.mod h1:kYGgaQfpe5nmfYZH+SKPsOc2e4SrIfOl2e/yFXSvRLM=
+github.com/mattn/go-isatty v0.0.18 h1:DOKFKCQ7FNG2L1rbrmstDN4QVRdS89Nkh85u68Uwp98=
+github.com/mattn/go-isatty v0.0.18/go.mod h1:W+V8PltTTMOvKvAeJH7IuucS94S2C6jfK/D7dTCTo3Y=
 github.com/mattn/go-runewidth v0.0.9/go.mod h1:H031xJmbD/WCDINGzjvQ9THkh0rPKHF+m2gUSrubnMI=
 github.com/mattn/go-runewidth v0.0.14 h1:+xnbZSEeDbOIg5/mE6JF0w6n9duR1l3/WmbinWVwUuU=
 github.com/mattn/go-runewidth v0.0.14/go.mod h1:Jdepj2loyihRzMpdS35Xk/zdY8IAYHsh153qUoGf23w=

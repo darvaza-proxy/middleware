@@ -1,5 +1,8 @@
 # func(http.Handler) http.Handler
 
+## General Middleware
+
+* `NOOP` does nothing
 
 ## Error Handling Middleware
 
