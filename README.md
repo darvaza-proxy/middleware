@@ -4,6 +4,11 @@
 
 * `NOOP` does nothing
 
+## Content Negotiation
+
+* `AcceptMiddleware()` alters the `Accept` header so only a given set is passed
+  to the next handler in the chain
+
 ## Error Handling Middleware
 
 * `WithErrorHandlerMiddleware()`
