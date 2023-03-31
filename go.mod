@@ -3,7 +3,8 @@ module github.com/darvaza-proxy/middleware
 go 1.19
 
 require (
-	github.com/darvaza-proxy/core v0.6.5
+	github.com/darvaza-proxy/core v0.8.1
+	github.com/darvaza-proxy/darvaza/shared/web v0.2.1
 	github.com/mgechev/revive v1.3.1
 )
 
