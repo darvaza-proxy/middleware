@@ -5,10 +5,11 @@ import (
 	"net/http"
 
 	"github.com/darvaza-proxy/core"
+	"github.com/darvaza-proxy/darvaza/shared/web"
 )
 
 // ErrorHandlerFunc is the signature of a function used as ErrorHandler
-type ErrorHandlerFunc func(http.ResponseWriter, *http.Request, error)
+type ErrorHandlerFunc = web.ErrorHandlerFunc
 
 // WithErrorHandlerMiddleware returns a middleware that attaches a
 // given ErrorHandler to their contexts
@@ -19,7 +20,7 @@ func WithErrorHandlerMiddleware(eh ErrorHandlerFunc) func(http.Handler) http.Han
 
 	fn := func(next http.Handler) http.Handler {
 		h := func(rw http.ResponseWriter, req *http.Request) {
-			ctx := WithErrorHandler(req.Context(), eh)
+			ctx := web.WithErrorHandler(req.Context(), eh)
 			req = req.WithContext(ctx)
 
 			next.ServeHTTP(rw, req)
@@ -34,27 +35,10 @@ func WithErrorHandlerMiddleware(eh ErrorHandlerFunc) func(http.Handler) http.Han
 // WithErrorHandler attaches an ErrorHandler function to a context
 // for later retrieval
 func WithErrorHandler(ctx context.Context, eh ErrorHandlerFunc) context.Context {
-	if ctx == nil {
-		ctx = context.Background()
-	}
-
-	if eh != nil {
-		ctx = context.WithValue(ctx, errHandlerKey, eh)
-	}
-
-	return ctx
+	return web.WithErrorHandler(ctx, eh)
 }
 
 // ErrorHandler attempts to pull an ErrorHandler from the context.Context
 func ErrorHandler(ctx context.Context) (ErrorHandlerFunc, bool) {
-	eh, ok := ctx.Value(errHandlerKey).(ErrorHandlerFunc)
-	return eh, ok
+	return web.ErrorHandler(ctx)
 }
-
-type contextKey struct {
-	name string
-}
-
-var (
-	errHandlerKey = &contextKey{"ErrorHandler"}
-)
