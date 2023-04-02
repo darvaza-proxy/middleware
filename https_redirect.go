@@ -5,7 +5,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/darvaza-proxy/core"
+	"darvaza.org/core"
 	"github.com/darvaza-proxy/middleware/internal"
 )
 
