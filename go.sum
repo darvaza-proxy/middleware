@@ -1,9 +1,5 @@
-darvaza.org/core v0.8.1 h1:1ngmbUqQWaKWhC8LwdobJMhJgQi/NLpy7cRa6XmPp24=
-darvaza.org/core v0.8.1/go.mod h1:M/zLq78zDLacjDXxOdO+TCCk5bUpEJXoVc2HbYS1jKY=
 darvaza.org/core v0.9.0 h1:3Vkmhr5n5/cQ89BpjWwQArqt3QdCRcEUc6F3Tnb7Dus=
 darvaza.org/core v0.9.0/go.mod h1:QyzYp1eWsgHJIHyaRZcLSc2LLjCvLFugHXfZLWD9JNU=
-darvaza.org/darvaza/shared/web v0.2.1 h1:eZGGzUR3xMpxusnWAwYOwXavhWAyYT1Y8Dt8LXPy6xM=
-darvaza.org/darvaza/shared/web v0.2.1/go.mod h1:HwRyh+k9VeNdUKA6h/fRJA4K8PMcAvh2QxSjRnyF6ig=
 darvaza.org/darvaza/shared/web v0.3.1 h1:JqOURYUZNFNiRJru8J/HGU1v+GEk248rpiV+Bh9uzQU=
 darvaza.org/darvaza/shared/web v0.3.1/go.mod h1:v0rV8Xo+fCwVWt2OxMzYj5vpPjgmXZbvk9COs6FO/gQ=
 github.com/BurntSushi/toml v1.2.1 h1:9F2/+DoOYIOksmaJFPw1tGFy1eDnIJXg+UHjuD8lTak=

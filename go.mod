@@ -1,4 +1,4 @@
-module github.com/darvaza-proxy/middleware
+module darvaza.org/middleware
 
 go 1.19
 

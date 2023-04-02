@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"darvaza.org/core"
-	"github.com/darvaza-proxy/middleware/internal"
+	"darvaza.org/middleware/internal"
 )
 
 // HTTPSRedirectHandler provides an automatic redirect to HTTPS
