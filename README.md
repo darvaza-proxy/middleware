@@ -1,5 +1,8 @@
 # func(http.Handler) http.Handler
 
+[![Go Reference](https://pkg.go.dev/badge/darvaza.org/middleware.svg)](https://pkg.go.dev/darvaza.org/middleware)
+[![Codebeat Score](https://codebeat.co/badges/d6e66082-010e-4b2b-8ef7-98de1345713b)](https://codebeat.co/projects/github-com-darvaza-proxy-middleware-main)
+
 ## General Middleware
 
 * `NOOP` does nothing
