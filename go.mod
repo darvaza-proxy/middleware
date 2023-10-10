@@ -3,8 +3,8 @@ module darvaza.org/middleware
 go 1.19
 
 require (
-	darvaza.org/core v0.9.9
-	darvaza.org/darvaza/shared/web v0.3.10
+	darvaza.org/core v0.10.0
+	darvaza.org/darvaza/shared/web v0.3.11
 	github.com/mgechev/revive v1.3.4
 )
 
@@ -21,8 +21,8 @@ require (
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/rivo/uniseg v0.4.4 // indirect
-	golang.org/x/net v0.15.0 // indirect
-	golang.org/x/sys v0.12.0 // indirect
+	golang.org/x/net v0.17.0 // indirect
+	golang.org/x/sys v0.13.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
-	golang.org/x/tools v0.13.0 // indirect
+	golang.org/x/tools v0.14.0 // indirect
 )
