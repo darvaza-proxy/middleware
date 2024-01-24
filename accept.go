@@ -3,7 +3,7 @@ package middleware
 import (
 	"net/http"
 
-	"darvaza.org/darvaza/shared/web/qlist"
+	"darvaza.org/x/web/qlist"
 )
 
 // AcceptMiddleware filters the Accept header to only include those

@@ -3,10 +3,11 @@ module darvaza.org/middleware
 go 1.20
 
 require (
-	darvaza.org/core v0.11.3
-	darvaza.org/darvaza/shared/web v0.3.12
-	github.com/mgechev/revive v1.3.4
+	darvaza.org/core v0.12.0
+	darvaza.org/x/web v0.3.13
 )
+
+require github.com/mgechev/revive v1.3.4
 
 require (
 	github.com/BurntSushi/toml v1.3.2 // indirect
@@ -24,5 +25,5 @@ require (
 	golang.org/x/net v0.20.0 // indirect
 	golang.org/x/sys v0.16.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
-	golang.org/x/tools v0.16.1 // indirect
+	golang.org/x/tools v0.17.0 // indirect
 )

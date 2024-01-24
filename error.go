@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"darvaza.org/core"
-	"darvaza.org/darvaza/shared/web"
+	"darvaza.org/x/web"
 )
 
 // ErrorHandlerFunc is the signature of a function used as ErrorHandler
