@@ -1,31 +1,17 @@
 module darvaza.org/middleware
 
-go 1.20
+go 1.21
+
+toolchain go1.22.6
 
 require (
-	darvaza.org/core v0.12.0
-	darvaza.org/x/web v0.3.13
+	darvaza.org/core v0.14.10
+	darvaza.org/x/web v0.8.7
 )
 
-require github.com/mgechev/revive v1.3.6
-
 require (
-	github.com/BurntSushi/toml v1.3.2 // indirect
-	github.com/chavacava/garif v0.1.0 // indirect
-	github.com/fatih/color v1.16.0 // indirect
-	github.com/fatih/structtag v1.2.0 // indirect
-	github.com/mattn/go-colorable v0.1.13 // indirect
-	github.com/mattn/go-isatty v0.0.20 // indirect
-	github.com/mattn/go-runewidth v0.0.15 // indirect
-	github.com/mgechev/dots v0.0.0-20210922191527-e955255bf517 // indirect
-	github.com/mitchellh/go-homedir v1.1.0 // indirect
-	github.com/olekukonko/tablewriter v0.0.5 // indirect
-	github.com/pkg/errors v0.9.1 // indirect
-	github.com/rivo/uniseg v0.4.4 // indirect
-	github.com/spf13/afero v1.11.0 // indirect
-	golang.org/x/exp v0.0.0-20240119083558-1b970713d09a // indirect
-	golang.org/x/net v0.20.0 // indirect
-	golang.org/x/sys v0.16.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
-	golang.org/x/tools v0.17.0 // indirect
+	darvaza.org/x/fs v0.3.3 // indirect
+	github.com/gobwas/glob v0.2.3 // indirect
+	golang.org/x/net v0.29.0 // indirect
+	golang.org/x/text v0.18.0 // indirect
 )
