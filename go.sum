@@ -1,5 +1,7 @@
 darvaza.org/core v0.15.0 h1:9BCUOH3Evu7l4KzqSr49AgQHw9hQSckYVzTkaa3bOB0=
 darvaza.org/core v0.15.0/go.mod h1:pXwSuJ8r20wSBOS8s5QfhkI2UvRSZgriwYtSIa+fojs=
+darvaza.org/core v0.15.3 h1:gfzWN8CyRrQVikFpEj89W4WZ00OIN8VYxRWHEwG2WyQ=
+darvaza.org/core v0.15.3/go.mod h1:S8QWBUX2FOYcT7Cl3K6oG6PSJDm6/2cI79MPEyRh844=
 darvaza.org/x/fs v0.3.3 h1:EXMgutKhk0fljRlDCkJb7RrbMJRhyfnO41h7bxchAFs=
 darvaza.org/x/fs v0.3.3/go.mod h1:BJBKXHolO5w7up9jqQLk8iLVtmubjUCx3Qp6K0aw9cg=
 darvaza.org/x/web v0.9.0 h1:rRuBBWsDIEke/Lz103xSaOEexthV3d3rH819cpToUPA=
@@ -8,5 +10,9 @@ github.com/gobwas/glob v0.2.3 h1:A4xDbljILXROh+kObIiy5kIaPYD8e96x1tgBhUI5J+Y=
 github.com/gobwas/glob v0.2.3/go.mod h1:d3Ez4x06l9bZtSvzIay5+Yzi0fmZzPgnTbPcKjJAkT8=
 golang.org/x/net v0.30.0 h1:AcW1SDZMkb8IpzCdQUaIq2sP4sZ4zw+55h6ynffypl4=
 golang.org/x/net v0.30.0/go.mod h1:2wGyMJ5iFasEhkwi13ChkO/t1ECNC4X4eBKkVFyYFlU=
+golang.org/x/net v0.31.0 h1:68CPQngjLL0r2AlUKiSxtQFKvzRVbnzLwMUn5SzcLHo=
+golang.org/x/net v0.31.0/go.mod h1:P4fl1q7dY2hnZFxEk4pPSkDHF+QqjitcnDjUQyMM+pM=
 golang.org/x/text v0.19.0 h1:kTxAhCbGbxhK0IwgSKiMO5awPoDQ0RpfiVYBfK860YM=
 golang.org/x/text v0.19.0/go.mod h1:BuEKDfySbSR4drPmRPG/7iBdf8hvFMuRexcpahXilzY=
+golang.org/x/text v0.20.0 h1:gK/Kv2otX8gz+wn7Rmb3vT96ZwuoxnQlY+HlJVj7Qug=
+golang.org/x/text v0.20.0/go.mod h1:D4IsuqiFMhST5bX19pQ9ikHC2GsaKyk/oF+pn3ducp4=
