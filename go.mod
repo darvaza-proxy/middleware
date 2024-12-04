@@ -2,7 +2,7 @@ module darvaza.org/middleware
 
 go 1.21
 
-toolchain go1.22.6
+toolchain go1.23.4
 
 require (
 	darvaza.org/core v0.15.0
