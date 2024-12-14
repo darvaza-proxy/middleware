@@ -4,8 +4,8 @@ go 1.21
 
 require (
 	darvaza.org/core v0.15.4
-	darvaza.org/x/fs v0.3.4 // indirect
-	darvaza.org/x/web v0.9.2
+	darvaza.org/x/fs v0.3.7 // indirect
+	darvaza.org/x/web v0.9.4
 )
 
 require (
