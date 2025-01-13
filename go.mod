@@ -3,7 +3,7 @@ module darvaza.org/middleware
 go 1.22
 
 require (
-	darvaza.org/core v0.15.6
+	darvaza.org/core v0.16.0
 	darvaza.org/x/fs v0.3.8 // indirect
 	darvaza.org/x/web v0.9.6
 )
